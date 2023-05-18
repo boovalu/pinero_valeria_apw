@@ -1,0 +1,251 @@
+/*
+/* https://coolors.co/9db1ba-ebebeb-ffffff-219ebc-023047-fb8500
+*/
+
+/*Escritorio*/
+@media (min-width: 1024px)  {
+	body{
+		font-family: 'Montserrat', sans-serif;
+		background-color: #FFFFFF;
+		color: #023047;
+	}
+	.error{
+		display: none;
+		background-color: #FB8500;
+		color: #FFFFFF;
+	}
+	
+	
+	.bgblue{
+		background-color: #023047;
+		color: #fafafa !important;
+	}
+
+	.bgcloud{
+		box-shadow: 2px 2px 2px 1px rgba(0, 2, 48, 71);
+		color: #023047  !important;
+	}
+	.bgclear{
+		box-shadow: 2px 2px 2px 1px #219EBC;
+		background-color: #EBEBEB;
+		color: #023047 !important;
+	}
+	.bgrain{
+		box-shadow: 2px 2px 2px 1px #9DB1BA;
+		background-color: #EBEBEB;
+		color: #9DB1BA  !important;
+	}
+	.bgwind{
+		box-shadow: 2px 2px 2px 1px #9DB1BA;
+		color: #9DB1BA !important;
+	}
+	.bgsnow{
+		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+		color: #9DB1BA  !important;
+	}
+	.bghumidity{
+		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+		color: #9DB1BA  !important;
+	}
+	.bgsun{
+		box-shadow: 2px 2px 2px 1px #FB8500;
+		color: #FB8500 !important;
+	}
+
+
+	h1,h2,h3,h4,h5,h6{
+		font-family: 'Sansita', sans-serif;
+		
+	}
+
+	#footer {
+		background-color: #023047;
+		color: #FFFFFF;
+		margin-top: 2em;
+	}
+
+
+	.posicion{
+		position: absolute;
+		bottom: -8%;
+		left: 50%;
+		transform: translate(-50%, -55%);
+
+	}
+	.sombra{
+		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+	}
+
+}
+#map {
+    width: 500px;
+    height: 300px;
+}	
+/*Fin Escritorio*/
+
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 1023px) {
+	body{
+		font-family: 'Montserrat', sans-serif;
+		background-color: #FFFFFF;
+		color: #023047;
+	}
+	.error{
+		display: none;
+		background-color: #FB8500;
+		color: #FFFFFF;
+	}
+	
+	
+	.bgblue{
+		background-color: #023047;
+		color: #fafafa !important;
+	}
+
+	.bgcloud{
+		box-shadow: 2px 2px 2px 1px rgba(0, 2, 48, 71);
+		color: #023047  !important;
+	}
+	.bgclear{
+		box-shadow: 2px 2px 2px 1px #219EBC;
+		background-color: #EBEBEB;
+		color: #023047 !important;
+	}
+	.bgrain{
+		box-shadow: 2px 2px 2px 1px #9DB1BA;
+		background-color: #EBEBEB;
+		color: #9DB1BA  !important;
+	}
+	.bgwind{
+		box-shadow: 2px 2px 2px 1px #9DB1BA;
+		color: #9DB1BA !important;
+	}
+	.bgsnow{
+		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+		color: #9DB1BA  !important;
+	}
+	.bghumidity{
+		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+		color: #9DB1BA  !important;
+	}
+	.bgsun{
+		box-shadow: 2px 2px 2px 1px #FB8500;
+		color: #FB8500 !important;
+	}
+
+
+	h1,h2,h3,h4,h5,h6{
+		font-family: 'Sansita', sans-serif;
+		
+	}
+
+	#footer {
+		background-color: #023047;
+		color: #FFFFFF;
+		margin-top: 2em;
+	}
+
+
+	.posicion{
+		position: absolute;
+		bottom: -8%;
+		left: 50%;
+		transform: translate(-50%, -55%);
+
+	}
+	.sombra{
+		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+	}
+
+}
+#map {
+    width: 500px;
+    height: 300px;
+}
+
+/*fin tablet*/
+
+
+
+
+/*movil*/
+@media (max-width: 767px) {
+body{
+		font-family: 'Montserrat', sans-serif;
+		background-color: #FFFFFF;
+		color: #023047;
+	}
+	.error{
+		display: none;
+		background-color: #FB8500;
+		color: #FFFFFF;
+	}
+	
+	
+	.bgblue{
+		background-color: #023047;
+		color: #fafafa !important;
+	}
+
+	.bgcloud{
+		box-shadow: 2px 2px 2px 1px rgba(0, 2, 48, 71);
+		color: #023047  !important;
+	}
+	.bgclear{
+		box-shadow: 2px 2px 2px 1px #219EBC;
+		background-color: #EBEBEB;
+		color: #023047 !important;
+	}
+	.bgrain{
+		box-shadow: 2px 2px 2px 1px #9DB1BA;
+		background-color: #EBEBEB;
+		color: #9DB1BA  !important;
+	}
+	.bgwind{
+		box-shadow: 2px 2px 2px 1px #9DB1BA;
+		color: #9DB1BA !important;
+	}
+	.bgsnow{
+		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+		color: #9DB1BA  !important;
+	}
+	.bghumidity{
+		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+		color: #9DB1BA  !important;
+	}
+	.bgsun{
+		box-shadow: 2px 2px 2px 1px #FB8500;
+		color: #FB8500 !important;
+	}
+
+
+	h1,h2,h3,h4,h5,h6{
+		font-family: 'Sansita', sans-serif;
+		
+	}
+
+	#footer {
+		background-color: #023047;
+		color: #FFFFFF;
+		margin-top: 2em;
+	}
+
+
+	.posicion{
+		position: absolute;
+		bottom: -8%;
+		left: 50%;
+		transform: translate(-50%, -55%);
+
+	}
+	.sombra{
+		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
+	}
+
+}
+#map {
+    width: 500px;
+    height: 300px;	
+	
+	
+}
