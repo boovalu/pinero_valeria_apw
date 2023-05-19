@@ -18,6 +18,7 @@
 		background-image: url("../imgs/weather/weatherbanner.png");
 		opacity: 0.9;
 		color: #023047 !important;
+		background-size: cover;
 	}
 	
 	.bgblue{
@@ -107,6 +108,7 @@
 		background-image: url("../imgs/weather/weatherbanner.png");
 		opacity: 0.9;
 		color: #023047 !important;
+		background-size: cover;
 	}
 	
 	.bgblue{
@@ -199,6 +201,7 @@
 		background-image: url("../imgs/weather/weatherbanner.png");
 		opacity: 0.9;
 		color: #023047 !important;
+	    	background-size: cover;
 	}
 	
 	.bgblue{
