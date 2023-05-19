@@ -14,7 +14,11 @@
 		background-color: #FB8500;
 		color: #FFFFFF;
 	}
-	
+	.banner{
+		background-image: url("../imgs/weather/weatherbanner.png");
+		opacity: 0.9;
+		color: #023047 !important;
+	}
 	
 	.bgblue{
 		background-color: #023047;
@@ -22,17 +26,20 @@
 	}
 
 	.bgcloud{
-		box-shadow: 2px 2px 2px 1px rgba(0, 2, 48, 71);
+		box-shadow: 2px 2px 2px 1px #219EBC;
+		color: #023047  !important;
+	}
+	.bgfog{
+		box-shadow: 2px 2px 2px 1px #9DB1BA;
 		color: #023047  !important;
 	}
 	.bgclear{
 		box-shadow: 2px 2px 2px 1px #219EBC;
-		background-color: #EBEBEB;
+		
 		color: #023047 !important;
 	}
 	.bgrain{
 		box-shadow: 2px 2px 2px 1px #9DB1BA;
-		background-color: #EBEBEB;
 		color: #9DB1BA  !important;
 	}
 	.bgwind{
@@ -57,9 +64,13 @@
 		font-family: 'Sansita', sans-serif;
 		
 	}
+	
+	h2{
+		color: #219EBC;
+	}
 
 	#footer {
-		background-color: #023047;
+		background-color: #219EBC;
 		color: #FFFFFF;
 		margin-top: 2em;
 	}
@@ -77,10 +88,7 @@
 	}
 
 }
-#map {
-    width: 500px;
-    height: 300px;
-}	
+	
 /*Fin Escritorio*/
 
 /*Tablet*/
@@ -95,7 +103,11 @@
 		background-color: #FB8500;
 		color: #FFFFFF;
 	}
-	
+	.banner{
+		background-image: url("../imgs/weather/weatherbanner.png");
+		opacity: 0.9;
+		color: #023047 !important;
+	}
 	
 	.bgblue{
 		background-color: #023047;
@@ -103,17 +115,20 @@
 	}
 
 	.bgcloud{
-		box-shadow: 2px 2px 2px 1px rgba(0, 2, 48, 71);
+		box-shadow: 2px 2px 2px 1px #219EBC;
+		color: #023047  !important;
+	}
+	.bgfog{
+		box-shadow: 2px 2px 2px 1px #9DB1BA;
 		color: #023047  !important;
 	}
 	.bgclear{
 		box-shadow: 2px 2px 2px 1px #219EBC;
-		background-color: #EBEBEB;
+		
 		color: #023047 !important;
 	}
 	.bgrain{
 		box-shadow: 2px 2px 2px 1px #9DB1BA;
-		background-color: #EBEBEB;
 		color: #9DB1BA  !important;
 	}
 	.bgwind{
@@ -138,9 +153,13 @@
 		font-family: 'Sansita', sans-serif;
 		
 	}
+	
+	h2{
+		color: #219EBC;
+	}
 
 	#footer {
-		background-color: #023047;
+		background-color: #219EBC;
 		color: #FFFFFF;
 		margin-top: 2em;
 	}
@@ -157,10 +176,6 @@
 		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
 	}
 
-}
-#map {
-    width: 500px;
-    height: 300px;
 }
 
 /*fin tablet*/
@@ -170,7 +185,7 @@
 
 /*movil*/
 @media (max-width: 767px) {
-body{
+	body{
 		font-family: 'Montserrat', sans-serif;
 		background-color: #FFFFFF;
 		color: #023047;
@@ -180,7 +195,11 @@ body{
 		background-color: #FB8500;
 		color: #FFFFFF;
 	}
-	
+	.banner{
+		background-image: url("../imgs/weather/weatherbanner.png");
+		opacity: 0.9;
+		color: #023047 !important;
+	}
 	
 	.bgblue{
 		background-color: #023047;
@@ -188,17 +207,20 @@ body{
 	}
 
 	.bgcloud{
-		box-shadow: 2px 2px 2px 1px rgba(0, 2, 48, 71);
+		box-shadow: 2px 2px 2px 1px #219EBC;
+		color: #023047  !important;
+	}
+	.bgfog{
+		box-shadow: 2px 2px 2px 1px #9DB1BA;
 		color: #023047  !important;
 	}
 	.bgclear{
 		box-shadow: 2px 2px 2px 1px #219EBC;
-		background-color: #EBEBEB;
+		
 		color: #023047 !important;
 	}
 	.bgrain{
 		box-shadow: 2px 2px 2px 1px #9DB1BA;
-		background-color: #EBEBEB;
 		color: #9DB1BA  !important;
 	}
 	.bgwind{
@@ -223,9 +245,13 @@ body{
 		font-family: 'Sansita', sans-serif;
 		
 	}
+	
+	h2{
+		color: #219EBC;
+	}
 
 	#footer {
-		background-color: #023047;
+		background-color: #219EBC;
 		color: #FFFFFF;
 		margin-top: 2em;
 	}
@@ -242,10 +268,4 @@ body{
 		box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.1);
 	}
 
-}
-#map {
-    width: 500px;
-    height: 300px;	
-	
-	
 }
