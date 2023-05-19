@@ -2,7 +2,6 @@ const APIKEY = "0e76de788f0a469ba510d6cbb2659535";
 const APITOMTOM = "EiRRpHwinakPOJU4omRnjiEgpLQKGiyr";
 
 
-const inputElement = document.getElementById('inputBusqueda');
 const buttonSearch = document.getElementById('buscar');
 const inputBusqueda = document.getElementById('inputBusqueda');
 const imagen = document.getElementById('imagen');
@@ -12,7 +11,7 @@ const mapa = document.getElementById('mapita');
 inputBusqueda.addEventListener('keydown', function (event) {
   if (event.keyCode !== 13) return
 	
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputElement.value}&appid=${APIKEY}&units=metric&lang=sp`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${inputBusqueda.value}&appid=${APIKEY}&units=metric&lang=sp`)
 	.then((response) => {
 		if(response.ok){ //chequeo status
 			return response.json(); // retorno al siguiente then el response como json
