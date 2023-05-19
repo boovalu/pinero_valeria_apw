@@ -5,22 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/jpg" href="imgs/favicon.png"/>
 	<title> Piñero Valeria - PWA 3CV</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<script src="css/js/jquery.js"></script>
 	<script src="css/js/bootstrap.min.js"></script>
-	
-
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 <header>
-	<div class="jumbotron jumbotron-fluid bgblue p-5">
+	<div class="jumbotron jumbotron-fluid  p-5 banner">
 	  <div class="container-fluid">
-		<h1 class="display-4"> Weather Currently</h1>
+		<h1 class="display-4 "> Weather Currently</h1>
 		<p class="lead"> DWN3CV</p>
 	  </div>
 	</div>
@@ -32,22 +30,20 @@
 	<div class="row justify-content-center align-items-center">
             <div class="col-12 m-2">
 			
-			<h2 class="text-center mb-3">Consulta el clima de tu zona.</h2>
+			<h2 class="text-center mb-3">Consulta el clima de tu ciudad</h2>
 		
-		<div class="input-group">
-			<input id="inputBusqueda" class="form-control" type="text" placeholder="Ingrese una ciudad" />
+		<div class="input-group p-3">
+			<input id="inputBusqueda" class="form-control" type="text" placeholder="Ingrese una ciudad + Enter"/>
 			<span class="input-group-text bg-light text-primary" id="basic-addon1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path></svg></span>
             
         </div>
 				
-				<div class="error m-2 p-2 rounded">
-					<p> Por favor ingrese una ciudad.</p>
-				</div>
+	<div class="error m-2 p-2 rounded">
+		<p> Por favor ingrese una ciudad válida.</p>
+	</div>
             </div>
             <div id="resultado" class="col-sm-6 col-md-6 mx-2">
 
-				<!-- 1. The <iframe> (and video player) will replace this <div> tag. >
-					<div id="cajitavideo" class="col-sm-6 col-md-6 mx-2"></div-->
 			</div>
 			<div id="mapita" class="col-sm-4 col-md-4"></div>
 
@@ -60,8 +56,8 @@
 		
 	<div class="d-flex justify-content-center">
 
-		<a class="footer-social-link d-inline-flex mx-3 justify-content-center align-items-center text-white rounded-circle  btn" href="https://wa.me/c/5491134716304" target="_blank">
-		<img src="imgs/redes/whatsapp.png" width="40" height="40" class="d-inline-block" alt="Logo de Whatsapp"></a>
+		<a class="footer-social-link d-inline-flex mx-3 justify-content-center align-items-center text-white rounded-circle  btn" href="https://www.linkedin.com/in/valeria-pi%C3%B1ero/" target="_blank">
+		<img src="imgs/redes/linkedin.png" width="40" height="40" class="d-inline-block" alt="Logo de Linkedin"></a>
 
 		<a class="footer-social-link d-inline-flex mx-3 justify-content-center align-items-center text-white rounded-circle  btn" href="https://www.instagram.com" target="_blank">
 		<img src="imgs/redes/instagram.png" width="40" height="40" class="d-inline-block" alt="Logo de Instagram"></a>
@@ -78,26 +74,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
